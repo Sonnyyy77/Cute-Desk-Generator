@@ -1,0 +1,255 @@
+html {
+  background-color: #fff8c7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  background-color: #fff8c7;
+}
+
+#header {
+  background-color: #fff8c7;
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  height: 75px;
+  line-height: 5px;
+  position: sticky;
+  top: 5px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  font-size: 20px;
+  color: #571e00;
+}
+
+#credit {
+  position: sticky;
+  top: -100px;
+  font-size: 10px;
+}
+
+#cvs {
+  max-width: 400px;
+  width: 100%;
+  height: 360px;
+  margin: 0;
+}
+
+#cvsdiv {
+  position: sticky;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#random {
+  background-color:  #ffea61;
+  border: 2px solid #ffdf0f;
+  border-radius: 10px;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(140px);
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#random:hover{
+  background-color:  #fff8c7;
+  box-shadow: 0px 0px 3px #ffdf0f inset;
+  cursor: pointer;
+}
+
+#share {
+  background-color:  #ffea61;
+  border: 2px solid #ffdf0f;
+  border-radius: 10px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(140px);
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#share:hover{
+  background-color:  #fff8c7;
+  box-shadow: 0px 0px 3px #ffdf0f inset;
+  cursor: pointer;
+}
+
+.menu {
+  background-color:  #ffea61;
+  /* overflow: auto; */
+  /* overflow-x: hidden; */
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu > div {
+  background-color: white;
+  border-radius: 15px;
+  width: 65px;
+  height: 65px;
+  line-height: 30px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu > div:hover{
+  background-color:  #fff8c7;
+  box-shadow: 0px 0px 3px #ffdf0f inset;
+  cursor: pointer;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.categories {
+  background-color:  #fff8c7;
+  margin: auto;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-width: 400px;
+  width: 100%;
+  position: sticky;
+  top: 435px;
+  height: 55px;
+}
+
+.categories > div {
+  background-color:  #ffdf0f;
+  border: 2px solid #c2a800;
+  border-bottom-style: none;
+  border-radius: 15px 15px 0px 0px;
+  width: 70px;
+  height: 55px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 2px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.categories > div:hover{
+  background-color:  #ffea61;
+  border: 2px solid #ffdf0f;
+  border-bottom-style: none;
+  cursor: pointer;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+#desktop {
+  background-color:  #ffea61;
+  border: 2px solid #ffdf0f;
+}
+
+.types {
+  background-color:  #ffea61;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: sticky;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  top: 490px;
+}
+
+.intypes {
+  background-color:  #ffea61;
+  margin: auto;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-width: 400px;
+  width: 95%;
+  position: sticky;
+  top: 480px;
+  height: 55px;
+  justify-content: center;
+}
+
+.intypes > div {
+  background-color:  #fff8c7;
+  border: 2px solid #ffdf0f;
+  border-radius: 15px 15px 15px 15px;
+  width: 45px;
+  height: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3px;
+  padding-top: 3px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+}
+
+.intypes > div:hover{
+  background-color:  #ffea61;
+  border: 2px solid #fff8c7;
+  cursor: pointer;
+}
+
+#cl1 {
+  background-color:  #ffea61;
+  border: 2px solid #fff8c7;
+}
+
+.intypes::-webkit-scrollbar {
+  display: none;
+}
+
+#b1, #b2, #b3, #b4 {
+  margin-top: 45px;
+}
+
+#a5, #a6 {
+  visibility: hidden;
+}
+
+#a7, #a8, #a9, #a10, #a11, #a12, #a13, #a14, #a15 {
+  display: none;
+}
