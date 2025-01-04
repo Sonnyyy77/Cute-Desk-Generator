@@ -1,4 +1,3 @@
-// let './style.css'
 
 //div
 let random = document.getElementById('random');
